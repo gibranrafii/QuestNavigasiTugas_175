@@ -61,7 +61,7 @@ fun listForm (
                 modifier = Modifier
                     .padding(all = 12.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = colorResource(id = R.color.biru)
+                    containerColor = colorResource(id = R.color.white)
                 )
             ) {
                 Column(modifier = Modifier.padding(10.dp)) {
@@ -74,20 +74,20 @@ fun listForm (
                                 stringResource(id = R.string.nama_lengkap),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White)
+                                color = Color.Black)
                             Text("Daffa Alyandra",
                                 fontSize = 14.sp,
-                                color = Color.White)
+                                color = Color.Black)
                         }
                         Spacer(modifier = Modifier.width(100.dp))
                         Column {
                             Text(stringResource(id = R.string.jenis_kelamin),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White)
+                                color = Color.Black)
                             Text("Laki-laki",
                                 fontSize = 14.sp,
-                                color = Color.White)
+                                color = Color.Black)
                         }
                     }
 
@@ -101,11 +101,11 @@ fun listForm (
                                 stringResource(id = R.string.status),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                             Text("Single",
                                 fontSize = 14.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                         }
                         Spacer(modifier = Modifier.width(150.dp))
@@ -113,11 +113,11 @@ fun listForm (
                             Text(stringResource(id = R.string.alamat),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                             Text("Tamsis",
                                 fontSize = 14.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                         }
                     }
@@ -127,7 +127,7 @@ fun listForm (
                 modifier = Modifier
                     .padding(all = 12.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = colorResource(id = R.color.biru)
+                    containerColor = colorResource(id = R.color.white)
                 )
             ) {
                 Column(modifier = Modifier.padding(10.dp)) {
@@ -140,20 +140,20 @@ fun listForm (
                                 stringResource(id = R.string.nama_lengkap),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White)
+                                color = Color.Black)
                             Text("Abimanyu",
                                 fontSize = 14.sp,
-                                color = Color.White)
+                                color = Color.Black)
                         }
                         Spacer(modifier = Modifier.width(100.dp))
                         Column {
                             Text(stringResource(id = R.string.jenis_kelamin),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White)
+                                color = Color.Black)
                             Text("Laki-laki",
                                 fontSize = 14.sp,
-                                color = Color.White)
+                                color = Color.Black)
                         }
                     }
 
@@ -167,11 +167,11 @@ fun listForm (
                                 stringResource(id = R.string.status),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                             Text("Taken",
                                 fontSize = 14.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                         }
                         Spacer(modifier = Modifier.width(150.dp))
@@ -179,11 +179,11 @@ fun listForm (
                             Text(stringResource(id = R.string.alamat),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                             Text("Bantul",
                                 fontSize = 14.sp,
-                                color = Color.White
+                                color = Color.Black
                             )
                         }
                     }
