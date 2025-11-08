@@ -1,6 +1,7 @@
 package com.example.tugasprak5.view
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -9,7 +10,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -183,6 +187,33 @@ fun listForm (
                             )
                         }
                     }
+                }
+            }
+
+            Spacer(modifier = Modifier.height(220.dp))
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
+                Button (
+                    modifier = Modifier.weight(1f)
+                        .padding(start = 15.dp)
+                        .size(50.dp),
+                    onClick = OnBackBtnClick,
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = colorResource(id = R.color.biru_gelap))
+                ) {
+                    Text(stringResource(id = R.string.beranda))
+                }
+
+                Button(
+                    modifier = Modifier.weight(1f)
+                        .padding(end = 15.dp )
+                        .size(50.dp),
+                    onClick = OnNextBtnClick,
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = colorResource(id = R.color.biru_gelap))
+                ) {
+                    Text(stringResource(id = R.string.formulir))
                 }
             }
         }
