@@ -87,7 +87,7 @@ fun formPendaftaran (
                     .fillMaxSize()
                     .padding(start = 12.dp, bottom = 12.dp, end = 12.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = colorResource(id = R.color.biru)
+                    containerColor = colorResource(id = R.color.white)
                 )
             ){
                 Text(
@@ -211,6 +211,26 @@ fun formPendaftaran (
                     ) {
                         Text(stringResource(id = R.string.submit))
                     }
+                }
+                if (showDialog) {
+                    AlertDialog(
+                        onDismissRequest = { showDialog = false },
+                        confirmButton = {
+                            TextButton(onClick = { showDialog = false
+                                OnSubmitBtnClick() }) {
+                                Text("OK")
+                            }
+                        },
+                        title = { Text("Data Berhasil Disimpan") },
+                        text = {
+                            Column {
+                                Text("Nama : " +namaLengkap)
+                                Text("Jenis Kelamin :" + jenisKelamin)
+                                Text("Status : " + status)
+                                Text("Alamat : " + alamat)
+                            }
+                        }
+                    )
                 }
             }
         }
