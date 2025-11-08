@@ -36,6 +36,13 @@ fun Welcome (
             .padding(vertical = 10.dp),
         contentAlignment = Alignment.Center
     ){
+        Column (
+            modifier = Modifier
+                .fillMaxSize()
+                .background(colorResource(id = R.color.biru_tua)),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ){
 
+        }
     }
 }
