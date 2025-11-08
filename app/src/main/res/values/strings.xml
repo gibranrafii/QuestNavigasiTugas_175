@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Tugas Prak 5</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="alamat">Alamat</string>
+    <string name="tampil">Tampilan Data</string>
+    <string name="pendaftaran">Formulir Pendaftaran</string>
+    <string name="status">Status</string>
+    <string name="beranda">Beranda</string>
 </resources>
