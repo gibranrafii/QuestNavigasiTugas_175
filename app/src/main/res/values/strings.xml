@@ -9,4 +9,6 @@
     <string name="pendaftaran">Formulir Pendaftaran</string>
     <string name="status">Status</string>
     <string name="beranda">Beranda</string>
+    <string name="masuk">Masuk</string>
+    <string name="formulir">Formulir</string>
 </resources>
